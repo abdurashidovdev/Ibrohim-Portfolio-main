@@ -107,6 +107,10 @@
     gap: 10px; 
     flex-wrap: wrap;
   }
+
+  .cardflex p {
+    font-size: 22px;
+  }
   
   .icon {
     width: 50px;
@@ -142,6 +146,10 @@
       text-align: center;
       margin: 0 auto;
       padding: 0;
+    }
+
+    .cardflex p {
+      font-size: 17px;
     }
   
     .icon {
@@ -181,7 +189,7 @@
     }
   }
   
-  @media (max-width: 390px) {
+  @media (max-width: 395px) {
     .Text {
       font-size: 18px;
     }
@@ -206,6 +214,32 @@
       width: 25px;
     }
   }
+
+  @media (max-width: 345px) {
+    .Text {
+      font-size: 13px;
+    }
+  
+    .About-p {
+      font-size: 11px;
+    }
+  
+    .img-card p {
+      font-size: 12px;
+    }
+  
+    .icon {
+      width: 25px;
+    }
+
+    .cardflex p {
+     font-size: 10px;
+    }
+
+    .icon-small {
+     width: 20px;
+    }
+  }
   
   @media (max-width: 320px) {
     .Text {
@@ -225,7 +259,7 @@
     }
 
     .cardflex p {
-     font-size: 12px;
+     font-size: 10px;
     }
 
     .icon-small {
