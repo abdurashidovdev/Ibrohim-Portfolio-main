@@ -9,7 +9,7 @@
     justify-content: center; 
     align-items: center; 
     display: flex;
-    padding-top: 15rem;
+    padding-top: 7rem;
 }
 .login-popup-container {
     display: flex;
@@ -17,7 +17,7 @@
     border: 5px solid white;
     flex-direction: column;
     color: #808080;
-    width: max(23vw,300px);
+    /* width: max(23vw,300px); */
     padding: 25px 30px;
     border-radius: 20px;
     font-size: 14px;
@@ -36,7 +36,7 @@
 .lll {
     color: Black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
 }
 .login-popup-container button {

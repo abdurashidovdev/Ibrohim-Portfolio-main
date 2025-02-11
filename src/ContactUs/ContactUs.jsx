@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';  // useNavigate import qilinadi
 import './ContactUs.css'
-// import Home from '../Home/Home'
+import '../Home/Home'
 
 export const ContactUs = () => {
   const form = useRef();
@@ -41,7 +41,7 @@ export const ContactUs = () => {
       <div className='login-popup'>
         <form className="login-popup-container" ref={form} onSubmit={sendEmail}>
           <div className="login-popup-title">
-            <h1 className='lll'>ChillProService</h1>
+            <h1 className='lll'>Sign up for the course:</h1>
           </div>
           <div className="login-popup-inputs">
             <input type="text" placeholder='Your Name*' name='to_name' />

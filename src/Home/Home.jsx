@@ -11,7 +11,7 @@ function Home() {
     <div className="Home-Container">
       <div className="Center1">
         <div className="Center2">
-          <div className="Logo">
+          <div className="Logo">  
             <img className="Logo-img" src={Logo} alt="Logo" />
           </div>
           <div className="Text">
@@ -55,10 +55,10 @@ function Home() {
             </div>
           </a>
 
-          <a href="http://localhost:3000/contactus">
-            <div className="Card1">
+          <a href="/contactus">
+            <div className="Card2">
               <div className="cardflex">
-                <p>Click here to sign up for the course and sign up.</p>
+                <span className="responsive-text">Click here to sign up for the course and sign up.</span>
                 <img src={signup} alt="Sign Up" className="icon-small" />
               </div>
             </div>
