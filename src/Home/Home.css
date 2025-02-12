@@ -191,7 +191,7 @@ a {
   }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 447px) {
   .Text {
     font-size: 15px;
   }
@@ -265,6 +265,48 @@ a {
     max-width: 60%;
     text-align: left;
     font-size: 10px;
+  }
+
+  .cardflex {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .icon-small {
+   width: 30px;
+  }
+}
+
+@media (max-width: 330px) {
+  .Text {
+    font-size: 13px;
+  }
+
+  .About-p {
+    font-size: 11px;
+  }
+
+  .img-card p {
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 32px;
+  }
+
+  .cardflex p {
+   font-size: 13px;
+  }
+
+  .cardflex span {
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .responsive-text {
+    max-width: 60%;
+    text-align: left;
+    font-size: 10px !important;
   }
 
   .cardflex {
