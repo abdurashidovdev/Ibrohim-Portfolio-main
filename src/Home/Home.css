@@ -207,7 +207,7 @@ a {
   .responsive-text {
     max-width: 60%;
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .cardflex p {
@@ -264,7 +264,7 @@ a {
   .responsive-text {
     max-width: 60%;
     text-align: left;
-    font-size: 10px !important;
+    font-size: 11px !important;
   }
 
   .cardflex {
